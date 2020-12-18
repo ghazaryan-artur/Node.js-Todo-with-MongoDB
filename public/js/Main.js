@@ -98,7 +98,7 @@ class Main {
     }
 
     async takeToEdit(id = 'there is no id'){
-		if ( id = ' '){
+		if ( id == ' '){
 			id = 'there is no id';
 		} 
 		try {
